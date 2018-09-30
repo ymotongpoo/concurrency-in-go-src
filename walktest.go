@@ -25,6 +25,8 @@ import (
 )
 
 var (
+	ExecFile = "walktest.go"
+
 	GoVers = []string{
 		"1.8.7",
 		"1.9.7",
@@ -36,69 +38,79 @@ var (
 		"golang.org/x/time/rate",
 	}
 
-	GoRoot    = "/opt/go/go%s"
-	GoBinPath = "/opt/go/go%s/bin/go"
+	GoRoot     = "/opt/go/go%s"
+	GoBinPath  = "/opt/go/go%s/bin/go"
+	GoPathRoot string
 )
 
-func main() {
-	for _, ver := range GoVers {
-		cwd, err := os.Getwd()
-		if err != nil {
-			log.Fatal(err)
-		}
+func init() {
+	cwd, err := os.Getwd()
+	if err != nil {
+		log.Fatal(err)
+	}
+	GoPathRoot = filepath.Join(cwd, "gopath")
+}
 
-		// install required packages
-		gopath := filepath.Join(cwd, ver)
-		os.Setenv("GOPATH", gopath)
+func main() {
+	cwd, err := os.Getwd()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// install required packages per Go version
+	for _, ver := range GoVers {
 		for _, p := range Pkgs {
 			cmd := exec.Command(fmt.Sprintf(GoBinPath, ver), "get", p)
 			cmd = prepareExecEnv(cmd, ver, os.Stderr)
 			cmd.Run()
 		}
+	}
 
-		file, err := os.Create(ver + ".txt")
-		if err != nil {
-			log.Fatal(err)
-		}
-		defer func() {
-			if err := file.Close(); err != nil {
-				log.Fatal(err)
-			}
-		}()
-		if err = filepath.Walk(cwd, runGofile(ver, file)); err != nil {
-			log.Fatal(err)
-		}
+	if err := filepath.Walk(cwd, runGofile()); err != nil {
+		log.Fatal(err)
 	}
 }
 
-func runGofile(ver string, out io.Writer) filepath.WalkFunc {
-	binPath := fmt.Sprintf(GoBinPath, ver)
+func runGofile() filepath.WalkFunc {
 	return func(path string, info os.FileInfo, err error) error {
+		if strings.HasPrefix(path, GoPathRoot) {
+			return nil
+		}
 		if !info.IsDir() {
 			if strings.HasSuffix(info.Name(), "_test.go") {
-				fmt.Fprintf(out, "\n>>>>> %s\n", path)
-				cmd := exec.Command(binPath, "test", path)
-				cmd = prepareExecEnv(cmd, ver, out)
-				cmd.Run()
-			} else if strings.HasSuffix(info.Name(), ".go") {
-				fmt.Fprintf(out, "\n>>>>> %s\n", path)
-				cmd := exec.Command(binPath, "run", path)
-				cmd = prepareExecEnv(cmd, ver, out)
-				cmd.Run()
+				return runPerVer("test", path, info)
+			} else if info.Name() != ExecFile && strings.HasSuffix(info.Name(), ".go") {
+				return runPerVer("run", path, info)
 			}
 		}
 		return nil
 	}
 }
 
+func runPerVer(option string, path string, info os.FileInfo) error {
+	file, err := os.Create(info.Name() + ".txt")
+	if err != nil {
+		return err
+	}
+	defer func() {
+		if err := file.Close(); err != nil {
+			log.Fatal(err)
+		}
+	}()
+
+	for _, ver := range GoVers {
+		fmt.Fprintf(file, "\n>>>>> %s\n", ver)
+		cmd := exec.Command(fmt.Sprintf(GoBinPath, ver), option, path)
+		cmd = prepareExecEnv(cmd, ver, file)
+		cmd.Run()
+	}
+	return nil
+}
+
 func prepareExecEnv(cmd *exec.Cmd, ver string, out io.Writer) *exec.Cmd {
 	cmd.Stderr = out
 	cmd.Stdout = out
-	cwd, err := os.Getwd()
-	if err != nil {
-		log.Fatal(err)
-	}
-	gopath := filepath.Join(cwd, ver)
+	gopath := filepath.Join(GoPathRoot, ver)
 	os.Setenv("GOPATH", gopath)
 	os.Setenv("GOROOT", fmt.Sprintf(GoRoot, ver))
 	return cmd
