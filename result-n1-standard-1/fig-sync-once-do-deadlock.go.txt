@@ -1,0 +1,88 @@
+
+>>>>> 1.8.7
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [semacquire]:
+sync.runtime_SemacquireMutex(0xc42000e0d4)
+	/opt/go/go1.8.7/src/runtime/sema.go:62 +0x34
+sync.(*Mutex).Lock(0xc42000e0d0)
+	/opt/go/go1.8.7/src/sync/mutex.go:87 +0x9d
+sync.(*Once).Do(0xc42000e0d0, 0xc420037f60)
+	/opt/go/go1.8.7/src/sync/once.go:40 +0x44
+main.main.func2()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:11 +0x33
+sync.(*Once).Do(0xc42000e0e0, 0xc420037f48)
+	/opt/go/go1.8.7/src/sync/once.go:44 +0xbe
+main.main.func1()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:10 +0x36
+sync.(*Once).Do(0xc42000e0d0, 0xc420037f60)
+	/opt/go/go1.8.7/src/sync/once.go:44 +0xbe
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:12 +0xd1
+exit status 2
+
+>>>>> 1.9.7
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [semacquire]:
+sync.runtime_SemacquireMutex(0xc4200140a4, 0x447600)
+	/opt/go/go1.9.7/src/runtime/sema.go:71 +0x3d
+sync.(*Mutex).Lock(0xc4200140a0)
+	/opt/go/go1.9.7/src/sync/mutex.go:134 +0xee
+sync.(*Once).Do(0xc4200140a0, 0xc42003bf40)
+	/opt/go/go1.9.7/src/sync/once.go:40 +0x44
+main.main.func2()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:11 +0x33
+sync.(*Once).Do(0xc4200140b0, 0xc42003bf58)
+	/opt/go/go1.9.7/src/sync/once.go:44 +0xbe
+main.main.func1()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:10 +0x36
+sync.(*Once).Do(0xc4200140a0, 0xc42003bf40)
+	/opt/go/go1.9.7/src/sync/once.go:44 +0xbe
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:12 +0xa3
+exit status 2
+
+>>>>> 1.10.4
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [semacquire]:
+sync.runtime_SemacquireMutex(0xc4200140a4, 0xc420043e00)
+	/opt/go/go1.10.4/src/runtime/sema.go:71 +0x3d
+sync.(*Mutex).Lock(0xc4200140a0)
+	/opt/go/go1.10.4/src/sync/mutex.go:134 +0x108
+sync.(*Once).Do(0xc4200140a0, 0xc420043f48)
+	/opt/go/go1.10.4/src/sync/once.go:40 +0x44
+main.main.func2()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:11 +0x33
+sync.(*Once).Do(0xc4200140b0, 0xc420043f60)
+	/opt/go/go1.10.4/src/sync/once.go:44 +0xbe
+main.main.func1()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:10 +0x36
+sync.(*Once).Do(0xc4200140a0, 0xc420043f48)
+	/opt/go/go1.10.4/src/sync/once.go:44 +0xbe
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:12 +0xa3
+exit status 2
+
+>>>>> 1.11
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [semacquire]:
+sync.runtime_SemacquireMutex(0xc0000140a4, 0xc000000300)
+	/opt/go/go1.11/src/runtime/sema.go:71 +0x3d
+sync.(*Mutex).Lock(0xc0000140a0)
+	/opt/go/go1.11/src/sync/mutex.go:134 +0xff
+sync.(*Once).Do(0xc0000140a0, 0xc00002e758)
+	/opt/go/go1.11/src/sync/once.go:40 +0x3b
+main.main.func2()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:11 +0x33
+sync.(*Once).Do(0xc0000140b0, 0xc00002e770)
+	/opt/go/go1.11/src/sync/once.go:44 +0xb3
+main.main.func1()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:10 +0x36
+sync.(*Once).Do(0xc0000140a0, 0xc00002e758)
+	/opt/go/go1.11/src/sync/once.go:44 +0xb3
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-sync-package/once/fig-sync-once-do-deadlock.go:12 +0xcb
+exit status 2

@@ -1,0 +1,44 @@
+
+>>>>> 1.8.7
+22:53:01 ward: Hello, I'm irresponsible!
+22:53:05 steward: ward unhealthy; restarting
+22:53:05 ward: Hello, I'm irresponsible!
+22:53:05 ward: I am halting.
+22:53:09 steward: ward unhealthy; restarting
+22:53:09 ward: Hello, I'm irresponsible!
+22:53:09 ward: I am halting.
+22:53:10 main: halting steward and ward.
+22:53:10 Done
+
+>>>>> 1.9.7
+22:53:11 ward: Hello, I'm irresponsible!
+22:53:15 steward: ward unhealthy; restarting
+22:53:15 ward: Hello, I'm irresponsible!
+22:53:15 ward: I am halting.
+22:53:19 steward: ward unhealthy; restarting
+22:53:19 ward: Hello, I'm irresponsible!
+22:53:19 ward: I am halting.
+22:53:20 main: halting steward and ward.
+22:53:20 Done
+
+>>>>> 1.10.4
+22:53:20 ward: Hello, I'm irresponsible!
+22:53:24 steward: ward unhealthy; restarting
+22:53:24 ward: Hello, I'm irresponsible!
+22:53:24 ward: I am halting.
+22:53:28 steward: ward unhealthy; restarting
+22:53:28 ward: Hello, I'm irresponsible!
+22:53:28 ward: I am halting.
+22:53:29 main: halting steward and ward.
+22:53:29 Done
+
+>>>>> 1.11
+22:53:29 ward: Hello, I'm irresponsible!
+22:53:33 steward: ward unhealthy; restarting
+22:53:33 ward: Hello, I'm irresponsible!
+22:53:33 ward: I am halting.
+22:53:37 steward: ward unhealthy; restarting
+22:53:37 ward: Hello, I'm irresponsible!
+22:53:37 ward: I am halting.
+22:53:38 main: halting steward and ward.
+22:53:38 Done

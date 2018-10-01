@@ -1,0 +1,16 @@
+
+>>>>> 1.8.7
+# command-line-arguments
+concurrency-at-scale/healing-unhealthy-goroutines/fig-more-complicated-ward.go:146: undefined: bridge
+
+>>>>> 1.9.7
+# command-line-arguments
+concurrency-at-scale/healing-unhealthy-goroutines/fig-more-complicated-ward.go:146:16: undefined: bridge
+
+>>>>> 1.10.4
+# command-line-arguments
+concurrency-at-scale/healing-unhealthy-goroutines/fig-more-complicated-ward.go:146:16: undefined: bridge
+
+>>>>> 1.11
+# command-line-arguments
+concurrency-at-scale/healing-unhealthy-goroutines/fig-more-complicated-ward.go:146:16: undefined: bridge
