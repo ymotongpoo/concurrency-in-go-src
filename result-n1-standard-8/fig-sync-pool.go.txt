@@ -1,0 +1,9 @@
+
+>>>>> 1.8.7
+8 calculators were created.
+>>>>> 1.9.7
+8 calculators were created.
+>>>>> 1.10.4
+8 calculators were created.
+>>>>> 1.11
+8 calculators were created.

@@ -1,0 +1,16 @@
+
+>>>>> 1.8.7
+Polite worker was able to execute 324248 work loops.
+Greedy worker was able to execute 591977 work loops
+
+>>>>> 1.9.7
+Polite worker was able to execute 430463 work loops.
+Greedy worker was able to execute 544074 work loops
+
+>>>>> 1.10.4
+Polite worker was able to execute 402394 work loops.
+Greedy worker was able to execute 597836 work loops
+
+>>>>> 1.11
+Polite worker was able to execute 423428 work loops.
+Greedy worker was able to execute 553660 work loops

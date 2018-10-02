@@ -1,0 +1,48 @@
+
+>>>>> 1.8.7
+second: acquiring lock on a
+first: acquiring lock on a
+second: acquiring lock on b
+second: releasing lock on a
+second: releasing lock on b
+sum: 0
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0
+
+>>>>> 1.9.7
+second: acquiring lock on a
+first: acquiring lock on a
+second: acquiring lock on b
+second: releasing lock on a
+second: releasing lock on b
+sum: 0
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0
+
+>>>>> 1.10.4
+second: acquiring lock on a
+first: acquiring lock on a
+second: acquiring lock on b
+second: releasing lock on a
+second: releasing lock on b
+sum: 0
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0
+
+>>>>> 1.11
+second: acquiring lock on a
+first: acquiring lock on a
+second: acquiring lock on b
+second: releasing lock on a
+second: releasing lock on b
+sum: 0
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0

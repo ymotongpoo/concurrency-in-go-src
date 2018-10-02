@@ -1,0 +1,12 @@
+
+>>>>> 1.8.7
+ok  	command-line-arguments	3.004s
+
+>>>>> 1.9.7
+ok  	command-line-arguments	3.003s
+
+>>>>> 1.10.4
+ok  	command-line-arguments	3.003s
+
+>>>>> 1.11
+ok  	command-line-arguments	3.003s

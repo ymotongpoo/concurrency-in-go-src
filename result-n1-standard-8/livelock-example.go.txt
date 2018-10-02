@@ -1,0 +1,129 @@
+
+>>>>> 1.8.7
+second: acquiring lock on b
+first: acquiring lock on a
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: acquiring lock on a
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+first: releasing lock on a
+second: releasing lock on b
+second: releasing lock on a
+sum: 0
+first: b locked, retrying
+first: acquiring lock on a
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0
+
+>>>>> 1.9.7
+second: acquiring lock on b
+first: acquiring lock on a
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+canceling goroutine...
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0
+
+>>>>> 1.10.4
+second: acquiring lock on b
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: acquiring lock on b
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+second: releasing lock on b
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: a locked, retrying
+second: acquiring lock on b
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+second: releasing lock on b
+second: a locked, retrying
+canceling goroutine...
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0
+
+>>>>> 1.11
+second: acquiring lock on b
+first: acquiring lock on a
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+first: releasing lock on a
+first: b locked, retrying
+first: acquiring lock on a
+second: releasing lock on b
+second: a locked, retrying
+second: acquiring lock on b
+second: releasing lock on b
+second: a locked, retrying
+canceling goroutine...
+first: acquiring lock on b
+first: releasing lock on a
+first: releasing lock on b
+sum: 0

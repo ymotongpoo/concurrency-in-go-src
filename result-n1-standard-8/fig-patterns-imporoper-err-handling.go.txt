@@ -1,0 +1,16 @@
+
+>>>>> 1.8.7
+Response: 200 OK
+Get https://badhost: dial tcp: lookup badhost on 169.254.169.254:53: no such host
+
+>>>>> 1.9.7
+Response: 200 OK
+Get https://badhost: dial tcp: lookup badhost on 169.254.169.254:53: no such host
+
+>>>>> 1.10.4
+Response: 200 OK
+Get https://badhost: dial tcp: lookup badhost on 169.254.169.254:53: no such host
+
+>>>>> 1.11
+Response: 200 OK
+Get https://badhost: dial tcp: lookup badhost on 169.254.169.254:53: no such host

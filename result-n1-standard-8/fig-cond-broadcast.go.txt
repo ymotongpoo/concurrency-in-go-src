@@ -1,0 +1,20 @@
+
+>>>>> 1.8.7
+Mouse clicked.
+Maximizing window.
+Displaying annoying dialogue box!
+
+>>>>> 1.9.7
+Mouse clicked.
+Maximizing window.
+Displaying annoying dialogue box!
+
+>>>>> 1.10.4
+Mouse clicked.
+Displaying annoying dialogue box!
+Maximizing window.
+
+>>>>> 1.11
+Mouse clicked.
+Maximizing window.
+Displaying annoying dialogue box!

@@ -1,0 +1,16 @@
+
+>>>>> 1.8.7
+ok  	command-line-arguments	0.004s [no tests to run]
+
+>>>>> 1.9.7
+ok  	command-line-arguments	0.002s [no tests to run]
+
+>>>>> 1.10.4
+# command-line-arguments
+concurrency-patterns-in-go/queuing/buffering_test.go:24: Fatal call has possible formatting directive %v
+FAIL	command-line-arguments [build failed]
+
+>>>>> 1.11
+# command-line-arguments
+concurrency-patterns-in-go/queuing/buffering_test.go:24: Fatal call has possible formatting directive %v
+FAIL	command-line-arguments [build failed]

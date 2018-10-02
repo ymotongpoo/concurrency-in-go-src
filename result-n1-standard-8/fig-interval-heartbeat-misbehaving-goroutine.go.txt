@@ -1,0 +1,20 @@
+
+>>>>> 1.8.7
+pulse
+pulse
+worker goroutine is not healthy!
+
+>>>>> 1.9.7
+pulse
+pulse
+worker goroutine is not healthy!
+
+>>>>> 1.10.4
+pulse
+pulse
+worker goroutine is not healthy!
+
+>>>>> 1.11
+pulse
+pulse
+worker goroutine is not healthy!

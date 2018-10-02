@@ -1,0 +1,36 @@
+
+>>>>> 1.8.7
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x84
+exit status 2
+
+>>>>> 1.9.7
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x55
+exit status 2
+
+>>>>> 1.10.4
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x55
+exit status 2
+
+>>>>> 1.11
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x55
+exit status 2
