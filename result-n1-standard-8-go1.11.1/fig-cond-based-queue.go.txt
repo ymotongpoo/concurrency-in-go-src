@@ -23,12 +23,12 @@ Adding to queue
 Adding to queue
 Adding to queue
 Removed from queue
-Adding to queue
 Removed from queue
 Adding to queue
-Removed from queue
 Adding to queue
 Removed from queue
+Removed from queue
+Adding to queue
 Adding to queue
 Removed from queue
 Adding to queue
@@ -43,8 +43,6 @@ Adding to queue
 Adding to queue
 Adding to queue
 Removed from queue
-Removed from queue
-Adding to queue
 Adding to queue
 Removed from queue
 Adding to queue
@@ -57,6 +55,8 @@ Adding to queue
 Removed from queue
 Adding to queue
 Removed from queue
+Removed from queue
+Adding to queue
 Adding to queue
 
 >>>>> 1.9.7
@@ -83,8 +83,8 @@ Adding to queue
 Adding to queue
 Adding to queue
 Removed from queue
-Adding to queue
 Removed from queue
+Adding to queue
 Adding to queue
 Removed from queue
 Adding to queue
@@ -107,8 +107,8 @@ Adding to queue
 Removed from queue
 Adding to queue
 Removed from queue
-Removed from queue
 Adding to queue
+Removed from queue
 Adding to queue
 Removed from queue
 Adding to queue

@@ -27,10 +27,10 @@ FAIL	command-line-arguments	1.002s
 --- FAIL: TestDoWork_GeneratesAllNumbers (1.00s)
 	bad_concurrent_test.go:55: test timed out
 FAIL
-FAIL	command-line-arguments	1.003s
+FAIL	command-line-arguments	1.002s
 
 >>>>> 1.11.1
 --- FAIL: TestDoWork_GeneratesAllNumbers (1.00s)
     bad_concurrent_test.go:55: test timed out
 FAIL
-FAIL	command-line-arguments	1.003s
+FAIL	command-line-arguments	1.002s

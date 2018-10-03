@@ -12,7 +12,7 @@ Primes:
 	7190363
 	2393161
 	45931967
-Search took: 5.16557015s
+Search took: 5.465107581s
 >>>>> 1.7.6
 Spinning up 8 prime finders.
 Primes:
@@ -26,7 +26,7 @@ Primes:
 	7190363
 	2393161
 	45931967
-Search took: 5.831938679s
+Search took: 5.824931177s
 >>>>> 1.8.7
 Spinning up 8 prime finders.
 Primes:
@@ -40,7 +40,7 @@ Primes:
 	7190363
 	2393161
 	45931967
-Search took: 5.756340058s
+Search took: 5.754704473s
 >>>>> 1.9.7
 Spinning up 8 prime finders.
 Primes:
@@ -54,7 +54,7 @@ Primes:
 	7190363
 	2393161
 	45931967
-Search took: 6.554713723s
+Search took: 6.547715137s
 >>>>> 1.10.4
 Spinning up 8 prime finders.
 Primes:
@@ -68,7 +68,7 @@ Primes:
 	7190363
 	2393161
 	45931967
-Search took: 7.483640229s
+Search took: 7.47984485s
 >>>>> 1.11.1
 Spinning up 8 prime finders.
 Primes:
@@ -82,4 +82,4 @@ Primes:
 	7190363
 	2393161
 	45931967
-Search took: 7.616985157s
+Search took: 7.626598353s

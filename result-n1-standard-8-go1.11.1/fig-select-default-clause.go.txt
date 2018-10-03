@@ -1,24 +1,24 @@
 
 >>>>> 1.6.4
-In default after 999ns
+In default after 958ns
 
 
 >>>>> 1.7.6
-In default after 1.389µs
+In default after 1.174µs
 
 
 >>>>> 1.8.7
-In default after 887ns
+In default after 923ns
 
 
 >>>>> 1.9.7
-In default after 1.551µs
+In default after 1.452µs
 
 
 >>>>> 1.10.4
-In default after 1.202µs
+In default after 1.959µs
 
 
 >>>>> 1.11.1
-In default after 1.593µs
+In default after 1.911µs
 

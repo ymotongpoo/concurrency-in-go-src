@@ -1,13 +1,13 @@
 
 >>>>> 1.6.4
-done after 1.000483249s
+done after 1.000389873s
 >>>>> 1.7.6
-done after 1.000342123s
+done after 1.000358455s
 >>>>> 1.8.7
-done after 1.000430511s
->>>>> 1.9.7
-done after 1.000374846s
->>>>> 1.10.4
-done after 1.000340177s
->>>>> 1.11.1
 done after 1.000346987s
+>>>>> 1.9.7
+done after 1.000366977s
+>>>>> 1.10.4
+done after 1.000430395s
+>>>>> 1.11.1
+done after 1.000332971s

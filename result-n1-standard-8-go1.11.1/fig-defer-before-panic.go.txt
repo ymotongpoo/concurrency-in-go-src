@@ -4,7 +4,7 @@ before the panic
 panic: paniced
 
 goroutine 1 [running]:
-panic(0x4b8e00, 0xc8200721b0)
+panic(0x4b8e00, 0xc82000a2a0)
 	/opt/go/go1.6.4/src/runtime/panic.go:481 +0x3e6
 main.main()
 	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x86

@@ -12,7 +12,7 @@ ok  	command-line-arguments	2.003s
 ok  	command-line-arguments	2.002s
 
 >>>>> 1.10.4
-ok  	command-line-arguments	2.003s
+ok  	command-line-arguments	(cached)
 
 >>>>> 1.11.1
-ok  	command-line-arguments	2.002s
+ok  	command-line-arguments	(cached)

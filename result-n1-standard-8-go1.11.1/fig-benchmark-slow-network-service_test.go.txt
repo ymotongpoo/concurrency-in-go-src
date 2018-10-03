@@ -1,20 +1,18 @@
 
 >>>>> 1.6.4
-ok  	command-line-arguments	0.004s
+ok  	command-line-arguments	0.003s
 
 >>>>> 1.7.6
 ok  	command-line-arguments	0.004s
 
 >>>>> 1.8.7
-ok  	command-line-arguments	0.005s [no tests to run]
+ok  	command-line-arguments	0.004s [no tests to run]
 
 >>>>> 1.9.7
 ok  	command-line-arguments	0.003s [no tests to run]
 
 >>>>> 1.10.4
-ok  	command-line-arguments	0.004s [no tests to run]
+ok  	command-line-arguments	(cached) [no tests to run]
 
 >>>>> 1.11.1
-# runtime/cgo
-exec: "gcc": executable file not found in $PATH
-FAIL	command-line-arguments [build failed]
+ok  	command-line-arguments	0.004s [no tests to run]

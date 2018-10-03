@@ -9,10 +9,10 @@ ok  	command-line-arguments	0.002s
 ok  	command-line-arguments	0.003s [no tests to run]
 
 >>>>> 1.9.7
-ok  	command-line-arguments	0.002s [no tests to run]
+ok  	command-line-arguments	0.001s [no tests to run]
 
 >>>>> 1.10.4
-ok  	command-line-arguments	0.002s [no tests to run]
+ok  	command-line-arguments	(cached) [no tests to run]
 
 >>>>> 1.11.1
-ok  	command-line-arguments	0.002s [no tests to run]
+ok  	command-line-arguments	(cached) [no tests to run]
