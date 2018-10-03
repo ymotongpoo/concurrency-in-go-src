@@ -1,0 +1,132 @@
+
+>>>>> 1.6.4
+pulse
+results 1
+pulse
+results 7
+pulse
+results 7
+pulse
+results 9
+pulse
+results 1
+pulse
+results 8
+pulse
+results 5
+pulse
+results 0
+pulse
+results 6
+pulse
+results 0
+
+>>>>> 1.7.6
+pulse
+results 1
+pulse
+results 7
+pulse
+results 7
+pulse
+results 9
+pulse
+results 1
+pulse
+results 8
+pulse
+results 5
+pulse
+results 0
+pulse
+results 6
+pulse
+results 0
+
+>>>>> 1.8.7
+pulse
+results 1
+pulse
+results 7
+pulse
+results 7
+pulse
+results 9
+pulse
+results 1
+pulse
+results 8
+pulse
+results 5
+pulse
+results 0
+pulse
+results 6
+pulse
+results 0
+
+>>>>> 1.9.7
+pulse
+results 1
+pulse
+results 7
+pulse
+results 7
+pulse
+results 9
+pulse
+results 1
+pulse
+results 8
+pulse
+results 5
+pulse
+results 0
+pulse
+results 6
+pulse
+results 0
+
+>>>>> 1.10.4
+pulse
+results 1
+pulse
+results 7
+pulse
+results 7
+pulse
+results 9
+pulse
+results 1
+pulse
+results 8
+pulse
+results 5
+pulse
+results 0
+pulse
+results 6
+pulse
+results 0
+
+>>>>> 1.11.1
+pulse
+results 1
+pulse
+results 7
+pulse
+results 7
+pulse
+results 9
+pulse
+results 1
+pulse
+results 8
+pulse
+results 5
+pulse
+results 0
+pulse
+results 6
+pulse
+results 0

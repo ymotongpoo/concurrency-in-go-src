@@ -1,0 +1,58 @@
+
+>>>>> 1.6.4
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+panic(0x4b8e00, 0xc8200721b0)
+	/opt/go/go1.6.4/src/runtime/panic.go:481 +0x3e6
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x86
+exit status 2
+
+>>>>> 1.7.6
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+panic(0x48a560, 0xc42000a2b0)
+	/opt/go/go1.7.6/src/runtime/panic.go:500 +0x1a1
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x8d
+exit status 2
+
+>>>>> 1.8.7
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x84
+exit status 2
+
+>>>>> 1.9.7
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x55
+exit status 2
+
+>>>>> 1.10.4
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x55
+exit status 2
+
+>>>>> 1.11.1
+before the panic
+panic: paniced
+
+goroutine 1 [running]:
+main.main()
+	/home/demo/concurrency-in-go-src/gos-concurrency-building-blocks/the-defer-statement/fig-defer-before-panic.go:9 +0x55
+exit status 2

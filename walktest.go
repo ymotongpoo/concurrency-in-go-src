@@ -28,10 +28,12 @@ var (
 	ExecFile = "walktest.go"
 
 	GoVers = []string{
+		"1.6.4",
+		"1.7.6",
 		"1.8.7",
 		"1.9.7",
 		"1.10.4",
-		"1.11",
+		"1.11.1",
 	}
 
 	Pkgs = []string{

@@ -1,0 +1,26 @@
+
+>>>>> 1.6.4
+concurrency-at-scale/rate-limiting/fig-tiered-rate-limit.go:4:2: cannot find package "context" in any of:
+	/opt/go/go1.6.4/src/context (from $GOROOT)
+	/home/demo/concurrency-in-go-src/gopath/1.6.4/src/context (from $GOPATH)
+
+>>>>> 1.7.6
+# command-line-arguments
+concurrency-at-scale/rate-limiting/fig-tiered-rate-limit.go:18: undefined: Open
+concurrency-at-scale/rate-limiting/fig-tiered-rate-limit.go:59: undefined: sort.Slice
+
+>>>>> 1.8.7
+# command-line-arguments
+concurrency-at-scale/rate-limiting/fig-tiered-rate-limit.go:18: undefined: Open
+
+>>>>> 1.9.7
+# command-line-arguments
+concurrency-at-scale/rate-limiting/fig-tiered-rate-limit.go:18:19: undefined: Open
+
+>>>>> 1.10.4
+# command-line-arguments
+concurrency-at-scale/rate-limiting/fig-tiered-rate-limit.go:18:19: undefined: Open
+
+>>>>> 1.11.1
+# command-line-arguments
+concurrency-at-scale/rate-limiting/fig-tiered-rate-limit.go:18:19: undefined: Open

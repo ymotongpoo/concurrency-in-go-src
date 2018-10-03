@@ -1,0 +1,48 @@
+
+>>>>> 1.6.4
+Unblocking goroutines...
+4 has begun
+0 has begun
+1 has begun
+2 has begun
+3 has begun
+
+>>>>> 1.7.6
+Unblocking goroutines...
+4 has begun
+3 has begun
+0 has begun
+1 has begun
+2 has begun
+
+>>>>> 1.8.7
+Unblocking goroutines...
+4 has begun
+0 has begun
+1 has begun
+2 has begun
+3 has begun
+
+>>>>> 1.9.7
+Unblocking goroutines...
+1 has begun
+4 has begun
+2 has begun
+3 has begun
+0 has begun
+
+>>>>> 1.10.4
+Unblocking goroutines...
+4 has begun
+2 has begun
+3 has begun
+0 has begun
+1 has begun
+
+>>>>> 1.11.1
+Unblocking goroutines...
+1 has begun
+0 has begun
+2 has begun
+3 has begun
+4 has begun

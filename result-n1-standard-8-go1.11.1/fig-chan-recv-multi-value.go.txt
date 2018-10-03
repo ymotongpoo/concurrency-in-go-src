@@ -1,0 +1,13 @@
+
+>>>>> 1.6.4
+(true): Hello channels!
+>>>>> 1.7.6
+(true): Hello channels!
+>>>>> 1.8.7
+(true): Hello channels!
+>>>>> 1.9.7
+(true): Hello channels!
+>>>>> 1.10.4
+(true): Hello channels!
+>>>>> 1.11.1
+(true): Hello channels!

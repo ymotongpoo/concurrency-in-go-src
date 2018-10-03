@@ -1,0 +1,36 @@
+
+>>>>> 1.6.4
+# command-line-arguments
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:9: undefined: fmt in fmt.Println
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:13: undefined: fmt in fmt.Println
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:21: undefined: fmt in fmt.Println
+
+>>>>> 1.7.6
+# command-line-arguments
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:9: undefined: fmt in fmt.Println
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:13: undefined: fmt in fmt.Println
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:21: undefined: fmt in fmt.Println
+
+>>>>> 1.8.7
+# command-line-arguments
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:9: undefined: fmt in fmt.Println
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:13: undefined: fmt in fmt.Println
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:21: undefined: fmt in fmt.Println
+
+>>>>> 1.9.7
+# command-line-arguments
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:9:10: undefined: fmt
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:13:5: undefined: fmt
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:21:2: undefined: fmt
+
+>>>>> 1.10.4
+# command-line-arguments
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:9:10: undefined: fmt
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:13:5: undefined: fmt
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:21:2: undefined: fmt
+
+>>>>> 1.11.1
+# command-line-arguments
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:9:10: undefined: fmt
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:13:5: undefined: fmt
+concurrency-patterns-in-go/preventing-goroutine-leaks/fig-goroutine-leaks-example.go:21:2: undefined: fmt

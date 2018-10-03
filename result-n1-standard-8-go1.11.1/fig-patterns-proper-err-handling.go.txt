@@ -1,0 +1,19 @@
+
+>>>>> 1.6.4
+Response: 200 OK
+error: Get https://badhost: dial tcp: lookup badhost on 127.0.0.53:53: server misbehaving
+>>>>> 1.7.6
+Response: 200 OK
+error: Get https://badhost: dial tcp: lookup badhost on 127.0.0.53:53: server misbehaving
+>>>>> 1.8.7
+Response: 200 OK
+error: Get https://badhost: dial tcp: lookup badhost on 127.0.0.53:53: server misbehaving
+>>>>> 1.9.7
+Response: 200 OK
+error: Get https://badhost: dial tcp: lookup badhost on 127.0.0.53:53: server misbehaving
+>>>>> 1.10.4
+Response: 200 OK
+error: Get https://badhost: dial tcp: lookup badhost on 127.0.0.53:53: server misbehaving
+>>>>> 1.11.1
+Response: 200 OK
+error: Get https://badhost: dial tcp: lookup badhost on 127.0.0.53:53: server misbehaving

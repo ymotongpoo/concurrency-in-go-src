@@ -1,0 +1,25 @@
+
+>>>>> 1.6.4
+concurrency-patterns-in-go/the-context-package/fig-greeter-with-context.go:4:2: cannot find package "context" in any of:
+	/opt/go/go1.6.4/src/context (from $GOROOT)
+	/home/demo/concurrency-in-go-src/gopath/1.6.4/src/context (from $GOPATH)
+
+>>>>> 1.7.6
+cannot print greeting: context deadline exceeded
+cannot print farewell: context canceled
+
+>>>>> 1.8.7
+cannot print greeting: context deadline exceeded
+cannot print farewell: context canceled
+
+>>>>> 1.9.7
+cannot print greeting: context deadline exceeded
+cannot print farewell: context canceled
+
+>>>>> 1.10.4
+cannot print greeting: context deadline exceeded
+cannot print farewell: context canceled
+
+>>>>> 1.11.1
+cannot print greeting: context deadline exceeded
+cannot print farewell: context canceled

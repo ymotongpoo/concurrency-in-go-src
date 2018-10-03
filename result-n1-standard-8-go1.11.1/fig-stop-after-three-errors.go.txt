@@ -1,0 +1,42 @@
+
+>>>>> 1.6.4
+error: Get a: unsupported protocol scheme ""
+Response: 200 OK
+error: Get b: unsupported protocol scheme ""
+error: Get c: unsupported protocol scheme ""
+Too many errors, breaking!
+
+>>>>> 1.7.6
+error: Get a: unsupported protocol scheme ""
+Response: 200 OK
+error: Get b: unsupported protocol scheme ""
+error: Get c: unsupported protocol scheme ""
+Too many errors, breaking!
+
+>>>>> 1.8.7
+error: Get a: unsupported protocol scheme ""
+Response: 200 OK
+error: Get b: unsupported protocol scheme ""
+error: Get c: unsupported protocol scheme ""
+Too many errors, breaking!
+
+>>>>> 1.9.7
+error: Get a: unsupported protocol scheme ""
+Response: 200 OK
+error: Get b: unsupported protocol scheme ""
+error: Get c: unsupported protocol scheme ""
+Too many errors, breaking!
+
+>>>>> 1.10.4
+error: Get a: unsupported protocol scheme ""
+Response: 200 OK
+error: Get b: unsupported protocol scheme ""
+error: Get c: unsupported protocol scheme ""
+Too many errors, breaking!
+
+>>>>> 1.11.1
+error: Get a: unsupported protocol scheme ""
+Response: 200 OK
+error: Get b: unsupported protocol scheme ""
+error: Get c: unsupported protocol scheme ""
+Too many errors, breaking!

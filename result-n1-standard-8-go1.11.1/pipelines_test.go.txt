@@ -1,0 +1,36 @@
+
+>>>>> 1.6.4
+# command-line-arguments
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:5: undefined: testing in testing.B
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:68: undefined: testing in testing.B
+FAIL	command-line-arguments [build failed]
+
+>>>>> 1.7.6
+# command-line-arguments
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:5: undefined: testing in testing.B
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:68: undefined: testing in testing.B
+FAIL	command-line-arguments [build failed]
+
+>>>>> 1.8.7
+# command-line-arguments
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:5: undefined: testing in testing.B
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:68: undefined: testing in testing.B
+FAIL	command-line-arguments [build failed]
+
+>>>>> 1.9.7
+# command-line-arguments
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:5:26: undefined: testing
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:68:24: undefined: testing
+FAIL	command-line-arguments [build failed]
+
+>>>>> 1.10.4
+# command-line-arguments
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:5:26: undefined: testing
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:68:24: undefined: testing
+FAIL	command-line-arguments [build failed]
+
+>>>>> 1.11.1
+# command-line-arguments [command-line-arguments.test]
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:5:26: undefined: testing
+concurrency-patterns-in-go/pipelines/some-handy-generators/pipelines_test.go:68:24: undefined: testing
+FAIL	command-line-arguments [build failed]
